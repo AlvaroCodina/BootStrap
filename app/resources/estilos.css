@@ -22,15 +22,30 @@ and open the template in the editor.
 .subtitulo {
   font-size: 2.5em;
 }
-#menu {
-  margin-top: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
+
+
+@media screen and (min-width: 480px) {
+    #cuerpo {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #menu {
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
-#cuerpo {
-  margin-left: 2em;
-  margin-right: 2em;
+@media only screen and (max-device-width: 480px) {
+    #cuerpo {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #menu{
+        margin: 0;
+    }
 }
+
+
 .paneles {
   background-color: #262626;
   color: white;
@@ -43,4 +58,7 @@ and open the template in the editor.
 }
 .vacio {
   height: 2em;
+}
+.vacio2 {
+  height: 1em;
 }

@@ -38,8 +38,9 @@
                                 <li><a href="paginas/personajes3.php">Golden Sun 3</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Historia</a></li>
+                        <li><a href="paginas/historia.php">Historia</a></li>
                         <li><a href="paginas/galeria.php">Galería</a></li>
+                        <li><a href="paginas/contacto.php">Contacto</a></li>
                     </ul>
                 </div>
             </nav>
