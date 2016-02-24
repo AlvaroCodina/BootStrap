@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-feb-2016, 8:43:30
+    Author     : alvaro
+*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.nombre{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.altura{height: 440px;}
+
+matt{
+    &:extend(.altura);
+    background: url(../resources/imagenes/todos.png) 0px 0px no-repeat;
+    width: 200px;
+}
+
+.terry{
+    &:extend(.altura);
+    background: url(../resources/imagenes/todos.png) -200px 0px no-repeat;
+    width: 220px;
+}
+
+.karis{
+    &:extend(.altura);
+    background: url(../resources/imagenes/todos.png) -440px 0px no-repeat;
+    width: 230px;
+}
+
+.rizzo{
+    &:extend(.altura);
+    background: url(../resources/imagenes/todos.png) -670px 0px no-repeat;
+    width: 260px;
+}

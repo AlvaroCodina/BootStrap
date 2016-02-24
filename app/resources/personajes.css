@@ -1,0 +1,39 @@
+//Personajes1
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.nombre{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.matt{
+    height: 440px;
+    background: url(../resources/imagenes/todos.png) 0px 0px no-repeat;
+    width: 200px;
+}
+
+.terry{
+    height: 440px;
+    background: url(../resources/imagenes/todos.png) -200px 0px no-repeat;
+    width: 220px;
+}
+
+.karis{
+    height: 440px;
+    background: url(../resources/imagenes/todos.png) -440px 0px no-repeat;
+    width: 230px;
+}
+
+.rizzo{
+    height: 440px;
+    background: url(../resources/imagenes/todos.png) -670px 0px no-repeat;
+    width: 260px;
+}
+
+

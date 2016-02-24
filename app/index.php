@@ -33,9 +33,9 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Personajes
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Golden Sun 1</a></li>
-                                <li><a href="#">Golden Sun 2</a></li>
-                                <li><a href="#">Golden Sun 3</a></li>
+                                <li><a href="paginas/personajes1.php">Golden Sun 1</a></li>
+                                <li><a href="paginas/personajes2.php">Golden Sun 2</a></li>
+                                <li><a href="paginas/personajes3.php">Golden Sun 3</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Historia</a></li>

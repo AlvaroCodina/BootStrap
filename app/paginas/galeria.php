@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sitio Web</title>
+        <title>Galeria</title>
 
         <link rel="stylesheet" href="../resources/estilos.css">
 
@@ -33,9 +33,9 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Personajes
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Golden Sun 1</a></li>
-                                <li><a href="#">Golden Sun 2</a></li>
-                                <li><a href="#">Golden Sun 3</a></li>
+                                <li><a href="personajes1.php">Golden Sun 1</a></li>
+                                <li><a href="personajes2.php">Golden Sun 2</a></li>
+                                <li><a href="personajes3.php">Golden Sun 3</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Historia</a></li>
@@ -60,34 +60,18 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img src="../resources/imagenes/galeria1.jpg" class="col-md-8 col-md-push-2 fotos" alt="Batalla" style="height: 500px;">
-                            <div class="carousel-caption">
-                                <h3>Batalla contra Saturos</h3>
-                                <p>La batalla contra Saturos en Golden Sun 1</p>
-                            </div>
                         </div>
 
                         <div class="item">
                             <img src="../resources/imagenes/galeria2.jpg" class="col-md-8 col-md-push-2 fotos" alt="Djinns" style="height: 500px;">
-                            <div class="carousel-caption">
-                                <h3>Dijinns</h3>
-                                <p>Son los 4 Djinns de todos los juegos</p>
-                            </div>
                         </div>
 
                         <div class="item">
                             <img src="../resources/imagenes/galeria3.png" class="col-md-8 col-md-push-2 fotos" alt="Todos" style="height: 500px;">
-                            <div class="carousel-caption">
-                                <h3>Personajes del Golden Sun 1</h3>
-                                <p>Son Garet, Mia, Iván y Hans</p>
-                            </div>
                         </div>
 
                         <div class="item">
                             <img src="../resources/imagenes/galeria4.jpg" class="col-md-8 col-md-push-2 fotos" alt="Mapa" style="height: 500px;">
-                            <div class="carousel-caption">
-                                <h3>Mapa del mundo</h3>
-                                <p>En este mapa se desarrollan los dos primeros juegos</p>
-                            </div>
                         </div>
                     </div>
 
