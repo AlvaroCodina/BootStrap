@@ -35,13 +35,18 @@ and open the template in the editor.
         margin-right: 1em;
     }
 }
-@media only screen and (max-device-width: 480px) {
-    #cuerpo {
-        margin-left: 0;
-        margin-right: 0;
+@media screen and (max-width: 980px) and (min-width: 480px) {
+    #nacimiento{
+        margin-bottom: 1em;
     }
+}
+@media screen and (max-width: 480px) {
+    
     #menu{
         margin: 0;
+    }
+    #nacimiento{
+        margin-bottom: 1em;
     }
 }
 
