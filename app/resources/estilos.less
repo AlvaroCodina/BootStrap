@@ -7,22 +7,35 @@ and open the template in the editor.
     Created on : 23-feb-2016, 10:18:42
     Author     : alvaro
 */
-#todo {
-  background-color: #0E5144;
-}
-.fuente,
-.parrafo,
-.menu {
-  font-size: 1.5em;
-}
-.titulo {
-  font-size: 6em;
-  color: #9FA2A2;
-}
-.subtitulo {
-  font-size: 2.5em;
+
+@fondo: #0E5144;
+@titulo: #9FA2A2;
+@paneles: #262626;
+
+#todo{
+    background-color: @fondo;
 }
 
+.fuente{
+    font-size: 1.5em;
+}
+
+.parrafo{
+    &:extend(.fuente);
+}
+.menu{
+    &:extend(.fuente);
+}
+
+.titulo{
+    font-size: 6em;
+    color: @titulo;     
+}
+
+.subtitulo{
+    font-size: 2.5em;
+}
+    
 @media screen and (min-width: 480px) {
   #cuerpo {
     margin-left: 2em;
@@ -97,38 +110,44 @@ and open the template in the editor.
     width: 25px;
   }
 }
-.paneles {
-  background-color: #262626;
-  color: white;
+
+.paneles{
+    background-color: @paneles;
+    color: white;
 }
-.point {
-  font-family: 'Poiret One', cursive;
+
+.point{
+    font-family: 'Poiret One', cursive;
 }
-.abajo {
-  margin-bottom: 2em;
+
+.abajo{
+    margin-bottom: 2em;
 }
-.vacio {
-  height: 2em;
+
+.vacio{
+    height: 2em;
 }
+
 .vacio2 {
-  height: 1em;
+    height: 1em;
 }
-.iconos {
-  width: 80px;
-  height: 80px;
+
+.iconos{
+    width: 80px;
+    height: 80px;
 }
-#facebook {
-  width: 80px;
-  height: 80px;
-  background: url(../resources/imagenes/iconos.png) -135px -15px no-repeat;
+
+#facebook{
+    .iconos;
+    background: url(../resources/imagenes/iconos.png) -135px -15px no-repeat;
 }
-#twitter {
-  width: 80px;
-  height: 80px;
-  background: url(../resources/imagenes/iconos.png) -215px -15px no-repeat;
+
+#twitter{
+    .iconos;
+    background: url(../resources/imagenes/iconos.png) -215px -15px no-repeat;
 }
-#instagram {
-  width: 80px;
-  height: 80px;
-  background: url(../resources/imagenes/iconos.png) -455px -15px no-repeat;
+
+#instagram{
+    .iconos;
+    background: url(../resources/imagenes/iconos.png) -455px -15px no-repeat;
 }

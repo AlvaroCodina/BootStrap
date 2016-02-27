@@ -1,50 +1,55 @@
-//Personajes1
-
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-feb-2016, 8:43:30
+    Author     : alvaro
+*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
-
+.posicion {
+  position: absolute;
+  top: 50px;
+}
 @media screen and (min-width: 480px) {
-    .nombre{
-        position: absolute;
-        right: 100px;
-        top: 50px;
-    }  
+  .nombre {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+  }
 }
-@media only screen and (max-device-width: 480px) {
-    .nombre{
-        position: absolute;
-        right: 50px;
-        top: 50px;
-    }
+@media only screen and (max-device-width: 400px) {
+  .nombre {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
 }
-
-
-
-.matt{
-    height: 440px;
-    background: url(../resources/imagenes/todos.png) 0px 0px no-repeat;
-    width: 200px;
+.altura,
+.matt,
+.terry,
+.karis,
+.rizzo {
+  height: 440px;
 }
-
-.terry{
-    height: 440px;
-    background: url(../resources/imagenes/todos.png) -200px 0px no-repeat;
-    width: 220px;
+.matt {
+  background: url(../resources/imagenes/todos.png) 0px 0px no-repeat;
+  width: 200px;
 }
-
-.karis{
-    height: 440px;
-    background: url(../resources/imagenes/todos.png) -440px 0px no-repeat;
-    width: 230px;
+.terry {
+  background: url(../resources/imagenes/todos.png) -200px 0px no-repeat;
+  width: 220px;
 }
-
-.rizzo{
-    height: 440px;
-    background: url(../resources/imagenes/todos.png) -670px 0px no-repeat;
-    width: 260px;
+.karis {
+  background: url(../resources/imagenes/todos.png) -440px 0px no-repeat;
+  width: 230px;
 }
-
-
+.rizzo {
+  background: url(../resources/imagenes/todos.png) -670px 0px no-repeat;
+  width: 260px;
+}

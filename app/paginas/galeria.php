@@ -59,7 +59,7 @@
             <!-- Cuerpo de la galeria -->
             <div id="cuerpo" class="row point">
                 <div class="col-xs-12 col-md-12 vacio"></div>
-                <div id="myCarousel" class="carousel slide col-xs-12 col-md-12" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide col-xs-12 col-md-12 carrusel" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -71,19 +71,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="../resources/imagenes/galeria1.jpg" class="col-md-8 col-md-push-2 fotos" alt="Batalla" style="height: 500px;">
+                            <img src="../resources/imagenes/galeria1.jpg" class="col-md-8 col-md-push-2" id="carr1" alt="Batalla">
                         </div>
 
                         <div class="item">
-                            <img src="../resources/imagenes/galeria2.jpg" class="col-md-8 col-md-push-2 fotos" alt="Djinns" style="height: 500px;">
+                            <img src="../resources/imagenes/galeria2.jpg" class="col-md-8 col-md-push-2" id="carr2" alt="Djinns">
                         </div>
 
                         <div class="item">
-                            <img src="../resources/imagenes/galeria3.png" class="col-md-8 col-md-push-2 fotos" alt="Todos" style="height: 500px;">
+                            <img src="../resources/imagenes/galeria3.png" class="col-md-8 col-md-push-2" id="carr3" alt="Todos">
                         </div>
 
                         <div class="item">
-                            <img src="../resources/imagenes/galeria4.jpg" class="col-md-8 col-md-push-2 fotos" alt="Mapa" style="height: 500px;">
+                            <img src="../resources/imagenes/galeria4.jpg" class="col-md-8 col-md-push-2" id="carr4" alt="Mapa">
                         </div>
                     </div>
 

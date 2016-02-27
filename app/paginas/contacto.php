@@ -7,7 +7,6 @@
         <title>Contacto</title>
 
         <link rel="stylesheet" href="../resources/estilos.css">
-        <link rel="stylesheet" href="../resources/prueba.css">
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -62,9 +61,10 @@
             <div id="cuerpo" class="row">
                 <div class="col-xs-12 col-md-12 vacio"></div>
                 <div class="panel panel-default col-xs-12 col-md-12">
-                    <h2 class="text-center">Acerca de GoldenSun.com</h2>
-                    <p class="text-center">Si quieres contactar con nosotros rellene el siguiente formulario</p>
-                    <div class="col-xs-12 col-md-8 col-md-push-2">
+                    <h2 class="text-center subtitulo">Acerca de GoldenSun.com</h2>
+                    <p class="text-center parrafo">Si quieres contactar con nosotros rellene el siguiente formulario</p>
+                    <a href="documentacion.php"><img src="../resources/imagenes/document.png" alt="Documentación" class="documento"></a>
+                    <div class="col-xs-12 col-md-8 col-md-push-2 parrafo">
                         <form role="form">
                             <div class="form-group">
                                 <label for="nombre">Nombre:</label>
@@ -92,7 +92,6 @@
                         <div class="col-xs-2 col-sm-2 col-md-1 col-md-push-2" id="facebook"></div>
                         <div class="col-xs-2 col-sm-2 col-md-1 col-md-push-2" id="twitter"></div>
                         <div class="col-xs-2 col-sm-2 col-md-1 col-md-push-2" id="instagram"></div>
-                        <div class="col-xs-2 col-sm-2 col-md-1 col-md-push-2" id="google"></div>
                     </div>
                 </div>
                 

@@ -2,10 +2,10 @@
 <html  class="no-js" lang="">
   <head>
     <meta charset="utf-8">
-    <title>prbootstrap</title>
+    <title>Golden Sun</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico" type="image/ico" sizes="16x16"> 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -19,56 +19,101 @@
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 
-    <!-- Font we use for the default template-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/estilos.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
+    <!-- Latest compiled JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    
   </head>
   <body>
+  
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">prbootstrap</h3>
-      </div>
+      
+    <div id="todo" class="container-fluid point">
+            <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="">Golden Sun</a>
+                </div>
 
-      <div class="jumbotron">
-        <h1>Congrats!</h1>
-        <p class="lead">You just scaffolded your app with the awesomely awesome Ariane Generator.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.php">Inicio <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Personajes <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="paginas/personajes1.php">Golden Sun 1</a></li>
+                                <li><a href="paginas/personajes2.php">Golden Sun 2</a></li>
+                                <li><a href="paginas/personajes3.php">Golden Sun 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="paginas/historia.php">Historia</a></li>
+                        <li><a href="paginas/galeria.php">Galeria</a></li>
+                        <li><a href="paginas/contacto.php">Contacto</a></li>
+                    </ul>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          
-
-          <h4><a href="http://lesscss.org/">Less</a></h4>
-          <p>Less is a CSS pre-processor, which extends CSS with dynamic behavior such as variables, mixins, operations and functions. So powerfull.</p>
-          
-
-          <h4><a href="http://getbootstrap.com/">Bootstrap</a></h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4><a href="http://modernizr.com/">Modernizr</a></h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-          
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+            
+            <!-- Se acaba el NAV empieza el cuerpo -->
+            
+            <div id="cuerpo" class="row point">
+                <div>
+                    <div class="col-md-12 col-xs-12 abajo">
+                        <h1 class="text-center titulo">Golden Sun</h1>
+                    </div>
+                    <div class="panel-group">
+                        <div class="panel panel-default col-xs-12 col-md-12">
+                            <img src="resources/imagenes/GoldenSun_wallpaper.jpg" class="img-rounded col-xs-12 col-md-8 col-md-push-2" alt="Wallpaper">
+                        </div>
+                        <div class="col-xs-12 col-md-12 vacio"></div>
+                        <div class="panel panel-default col-xs-12 col-md-5" id="nacimiento">
+                            <div class="panel-body">
+                                <h2 class="subtitulo">Nacimiento</h2>
+                                <p class="parrafo">Golden Sun (Ougon no Taiyou Hirakareshi Fūin en Japón) 
+                                    es la primera entrega de una serie de videojuegos RPG, lanzada para Game Boy 
+                                    Advance, distribuida por Nintendo y desarrollada por Camelot Software Planning. 
+                                    Fue lanzada en agosto de 2001 en Japón, en noviembre del mismo año en Estados 
+                                    Unidos y en Europa en febrero de 2002.</p>
+                            </div>
+                        </div>
+                        <div class="panel panel-default col-xs-12 col-md-6 col-md-push-1" style="margin-top: 0px;">
+                            <div class="panel-body">
+                                <h2 class="subtitulo">El mundo de Golden Sun</h2>
+                                <p class="parrafo">Llamado Weyard, es una especie de tierra plana, 
+                                    cuyos límites están siendo devorados por la falta de energía elemental y alquímica 
+                                    que sustente al mundo, motivo por el cual se deciden encender de nuevo los faros 
+                                    elementales. En el mundo de Weyard hay 7 continentes: Angara, Gondowan, Indra, 
+                                    Osenia, Tundaria, Hesperia y Atteka. También hay un grupo de islas habitadas en el Mar del Este.</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-12 vacio"></div>
+                        <div class="panel panel-default col-xs-12 col-md-12">
+                            <h3 class="text-center" style="margin-top: 0px;"><small>Álvaro Codina Lahoz</small></h3>
+                        </div>
+                        <div class="col-xs-12 col-md-12 vacio"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Ariane team</p>
-      </div>
-    </div>
     
 
     <!-- build:js scripts/vendor.js -->
@@ -106,10 +151,6 @@
     
     <!-- endbuild -->
     
-
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
